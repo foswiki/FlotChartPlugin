@@ -1,0 +1,92 @@
+%META:TOPICINFO{author="WikiContributor" date="1210258942" format="1.1" reprev="1.1" version="$Rev$"}%
+---+!! !FlotChartPlugin
+<!--
+One line description, required for extensions repository catalog.
+   * Set SHORTDESCRIPTION = A JQuery based CHARTs for Foswiki
+-->
+%SHORTDESCRIPTION%
+
+<img src="%PUBURL%/%WEB%/%TOPIC%/FoswikiStatsPlugin.png" style="float:right;margin:20px;" />
+
+%TOC%
+
+---++ Description
+Currently based on Flot 0.6
+
+(from http://code.google.com/p/flot)
+
+Flot is a pure Javascript plotting library for jQuery. It produces graphical plots of arbitrary datasets on-the-fly client-side. 
+
+The focus is on simple usage (all settings are optional), attractive looks and interactive features like zooming. 
+
+Although Flot is easy to use, it is also advanced enough to be suitable for Web 2.0 data mining/business intelligence purposes which is its original application. 
+
+The plugin is targeting all newer browsers. If you find a problem, please report it. Drawing is done with the =&lt;canvas>= tag introduced by Safari and now available on all major browsers, except Internet Explorer where the =excanvas= Javascript emulation helper is used.
+
+---++ Documentation
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/README.txt][README]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/NEWS.txt][NEWS]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/API.txt][API]]
+
+---++ Examples
+
+---+++ Two series
+
+*You type:*
+<verbatim>
+%FLOTCHART{
+    "test,more"
+    test="[1, 23],[2, 87],[3, 11],[4, 17],[5, 21],[6, 45],[7, 34],[8, 23]"
+    more="[1, 2],[2, 4],[3, 6],[4, 8],[5, 18],[6, 12],[7, 14],[8, 16]"
+    xticks="[1, 'start'],[4, 'middle'],[8, 'finish']"
+    yticks="1,25,50,75,100"
+    ymax="100"
+    height="120px"
+    width="400px"
+}%
+</verbatim>
+
+*You get:* (if installed)
+%FLOTCHART{
+    "test,more"
+    test="[1, 23],[2, 87],[3, 11],[4, 17],[5, 21],[6, 45],[7, 34],[8, 23]"
+    more="[1, 2],[2, 4],[3, 6],[4, 8],[5, 18],[6, 12],[7, 14],[8, 16]"
+    xticks="[1, 'start'],[4, 'middle'],[8, 'finish']"
+    yticks="1,25,50,75,100"
+    ymax="100"
+    height="120px"
+    width="400px"
+}%
+
+---+++ Distribution examples
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/index.html][Examples index]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/basic.html][Basic example]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/graph-types.html][Different graph types]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/interacting.html][Interacting with the data]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/selection.html][Selection support and zooming]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/setting-options.html][Setting various options]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/time.html][Timeseries of monthly mean atmospheric CO<sub>2</sub> in PPM at Mauna Loa, Hawaii]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/visitors.html][Visitors per day to the Flot homepage]]
+   * [[%PUBURLPATH%/%SYSTEMWEB%/%TOPIC%/examples/zooming.html][Zooming with overview]]
+
+---++ Installation Instructions
+
+%$INSTALL_INSTRUCTIONS%
+
+---++ Plugin Info
+
+|  Plugin Author(s): | Foswiki:Main.SvenDowideit - http://fosiki.com a %PUBURL%/%WEB%/%TOPIC%/wikiringlogo20x20.png [[http://WikiRing.com][WikiRing]] founding partner  |
+|  Copyright: | &copy; SvenDowideit@fosiki.com |
+|  License: | MIT License |
+|  Plugin Version: | %$VERSION% |
+|  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  Nov 2009: | Initial public release  |
+|  Dependencies: | %$DEPENDENCIES% |
+|  Plugin Home: | http://Foswiki.org/Extensions/FlotChartPlugin |
+|  Feedback: | http://Foswiki.org/Support/FlotChartPlugin |
+
+
+<!-- Do _not_ attempt to edit this topic; it is auto-generated. Please add comments/questions/remarks to the feedback topic on Foswiki.org instead. -->
+
+%META:FILEATTACHMENT{name="FoswikiStatsPlugin.png" attr="h" comment="" date="1202302161" path="FoswikiStatsPlugin.png" size="51749" user="WikiContributor" version="1"}%
+%META:FILEATTACHMENT{name="wikiringlogo20x20.png" attr="r" comment="" date="1202302161" path="wikiringlogo20x20.png" size="1343" user="WikiContributor" version="1"}%

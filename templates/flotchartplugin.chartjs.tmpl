@@ -1,0 +1,9 @@
+<script id="source" language="javascript" type="text/javascript">
+$(function () {
+    %SERIES%
+    var options = {
+        %OPTIONS%
+    };
+    $.plot($("#placeholder%CHARTID%"), [ %SERIESNAMES% ], options);
+});
+</script>

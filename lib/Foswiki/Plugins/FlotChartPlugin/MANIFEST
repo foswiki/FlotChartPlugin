@@ -1,0 +1,67 @@
+data/System/FlotChartPlugin.txt 0644
+lib/Foswiki/Plugins/FlotChartPlugin.pm 0644
+pub/System/FlotChartPlugin/FoswikiStatsPlugin.png 0644
+pub/System/FlotChartPlugin/wikiringlogo20x20.png 0644
+templates/flotchartplugin.javascript.tmpl 0644
+
+
+pub/System/FlotChartPlugin/jquery.flot.min.js
+pub/System/FlotChartPlugin/jquery.flot.selection.js
+pub/System/FlotChartPlugin/FAQ.txt
+pub/System/FlotChartPlugin/jquery.js
+pub/System/FlotChartPlugin/jquery.colorhelpers.js
+pub/System/FlotChartPlugin/jquery.flot.navigate.js
+pub/System/FlotChartPlugin/PLUGINS.txt
+pub/System/FlotChartPlugin/jquery.flot.image.min.js
+pub/System/FlotChartPlugin/jquery.flot.stack.js
+pub/System/FlotChartPlugin/jquery.flot.selection.min.js
+pub/System/FlotChartPlugin/jquery.min.js
+pub/System/FlotChartPlugin/jquery.colorhelpers.min.js
+pub/System/FlotChartPlugin/jquery.flot.navigate.min.js
+pub/System/FlotChartPlugin/Makefile
+pub/System/FlotChartPlugin/excanvas.js
+pub/System/FlotChartPlugin/jquery.flot.stack.min.js
+pub/System/FlotChartPlugin/API.txt
+pub/System/FlotChartPlugin/jquery.flot.threshold.js
+pub/System/FlotChartPlugin/jquery.flot.crosshair.js
+pub/System/FlotChartPlugin/NEWS.txt
+pub/System/FlotChartPlugin/jquery.flot.js
+pub/System/FlotChartPlugin/LICENSE.txt
+pub/System/FlotChartPlugin/excanvas.min.js
+pub/System/FlotChartPlugin/jquery.flot.threshold.min.js
+pub/System/FlotChartPlugin/README.txt
+pub/System/FlotChartPlugin/jquery.flot.crosshair.min.js
+pub/System/FlotChartPlugin/examples/basic.html
+pub/System/FlotChartPlugin/examples/visitors.html
+pub/System/FlotChartPlugin/examples/arrow-left.gif
+pub/System/FlotChartPlugin/examples/data-japan-gdp-growth.json
+pub/System/FlotChartPlugin/examples/navigate.html
+pub/System/FlotChartPlugin/examples/hs-2004-27-a-large_web.jpg
+pub/System/FlotChartPlugin/examples/graph-types.html
+pub/System/FlotChartPlugin/examples/data-eu-gdp-growth-1.json
+pub/System/FlotChartPlugin/examples/data-eu-gdp-growth.json
+pub/System/FlotChartPlugin/examples/data-eu-gdp-growth-3.json
+pub/System/FlotChartPlugin/examples/arrow-right.gif
+pub/System/FlotChartPlugin/examples/data-eu-gdp-growth-5.json
+pub/System/FlotChartPlugin/examples/interacting.html
+pub/System/FlotChartPlugin/examples/arrow-up.gif
+pub/System/FlotChartPlugin/examples/turning-series.html
+pub/System/FlotChartPlugin/examples/image.html
+pub/System/FlotChartPlugin/examples/zooming.html
+pub/System/FlotChartPlugin/examples/ajax.html
+pub/System/FlotChartPlugin/examples/data-usa-gdp-growth.json
+pub/System/FlotChartPlugin/examples/selection.html
+pub/System/FlotChartPlugin/examples/dual-axis.html
+pub/System/FlotChartPlugin/examples/thresholding.html
+pub/System/FlotChartPlugin/examples/time.html
+pub/System/FlotChartPlugin/examples/arrow-down.gif
+pub/System/FlotChartPlugin/examples/layout.css
+pub/System/FlotChartPlugin/examples/annotating.html
+pub/System/FlotChartPlugin/examples/tracking.html
+pub/System/FlotChartPlugin/examples/stacking.html
+pub/System/FlotChartPlugin/examples/data-eu-gdp-growth-2.json
+pub/System/FlotChartPlugin/examples/data-eu-gdp-growth-4.json
+pub/System/FlotChartPlugin/examples/setting-options.html
+pub/System/FlotChartPlugin/examples/index.html
+pub/System/FlotChartPlugin/jquery.flot.image.js
+

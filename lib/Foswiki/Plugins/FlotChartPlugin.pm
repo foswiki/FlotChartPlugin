@@ -64,7 +64,7 @@ sub doInit {
 
     # add the initialisation javascript
     my $jscript = Foswiki::Func::readTemplate( lc($pluginName), 'javascript' );
-    Foswiki::Func::addToHEAD( $pluginName . '-javascript', $jscript );
+    Foswiki::Func::addToHEAD( $pluginName . '-javascript', $jscript, 'JQUERYPLUGIN' );
 
 }
 

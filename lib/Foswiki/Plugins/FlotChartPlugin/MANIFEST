@@ -1,21 +1,18 @@
 data/System/FlotChartPlugin.txt 0644
 lib/Foswiki/Plugins/FlotChartPlugin.pm 0644
+lib/Foswiki/Configure/Checkers/Plugins/FlotChartPlugin/Enabled.pm 0644
 pub/System/FlotChartPlugin/FoswikiStatsPlugin.png 0644
 pub/System/FlotChartPlugin/wikiringlogo20x20.png 0644
 templates/flotchartplugin.javascript.tmpl 0644
-
-
 pub/System/FlotChartPlugin/jquery.flot.min.js
 pub/System/FlotChartPlugin/jquery.flot.selection.js
 pub/System/FlotChartPlugin/FAQ.txt
-pub/System/FlotChartPlugin/jquery.js
 pub/System/FlotChartPlugin/jquery.colorhelpers.js
 pub/System/FlotChartPlugin/jquery.flot.navigate.js
 pub/System/FlotChartPlugin/PLUGINS.txt
 pub/System/FlotChartPlugin/jquery.flot.image.min.js
 pub/System/FlotChartPlugin/jquery.flot.stack.js
 pub/System/FlotChartPlugin/jquery.flot.selection.min.js
-pub/System/FlotChartPlugin/jquery.min.js
 pub/System/FlotChartPlugin/jquery.colorhelpers.min.js
 pub/System/FlotChartPlugin/jquery.flot.navigate.min.js
 pub/System/FlotChartPlugin/Makefile
@@ -64,4 +61,3 @@ pub/System/FlotChartPlugin/examples/data-eu-gdp-growth-4.json
 pub/System/FlotChartPlugin/examples/setting-options.html
 pub/System/FlotChartPlugin/examples/index.html
 pub/System/FlotChartPlugin/jquery.flot.image.js
-

@@ -21,6 +21,7 @@ require Foswiki::Plugins;    # For the API version
 
 use vars
   qw( $VERSION $RELEASE $SHORTDESCRIPTION $pluginName $NO_PREFS_IN_TOPIC
+    $pluginJavascript
     $doneInit
     $ChartId 
     $mixedAlphaNum
@@ -33,6 +34,7 @@ $NO_PREFS_IN_TOPIC = 1;
 
 # Name of this Plugin, only used in this module
 $pluginName = 'FlotChartPlugin';
+$pluginJavascript = uc($pluginName) . '::JAVASCRIPT';
 
 
 ###############################################################################
@@ -64,7 +66,7 @@ sub doInit {
 
     # add the initialisation javascript
     my $jscript = Foswiki::Func::readTemplate( lc($pluginName), 'javascript' );
-    Foswiki::Func::addToHEAD( $pluginName . '-javascript', $jscript, 'JQUERYPLUGIN' );
+    Foswiki::Func::addToZone('body', $pluginJavascript, $jscript, 'JQUERYPLUGIN' );
 
 }
 
@@ -187,7 +189,7 @@ EOS
     $result =~ s/%CHARTID%/$ChartId/g;
     $result =~ s/%WIDTH%/$width/g;
     $result =~ s/%HEIGHT%/$height/g;
-    Foswiki::Func::addToHEAD("$pluginName - flotChart $ChartId", $result );
+    Foswiki::Func::addToZone('body', "!$pluginName - flotChart $ChartId", $result, $pluginJavascript );
 
     $result = <<'EOS';
 <div class="flotChart" id="flotChartPlaceholder%CHARTID%" style="margin-top:1em;width:%WIDTH%;height:%HEIGHT%;"></div>

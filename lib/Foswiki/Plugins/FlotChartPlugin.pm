@@ -28,7 +28,7 @@ use vars
   );
 
 $VERSION = '$Rev$';
-$RELEASE = '1.1';
+$RELEASE = '1.2';
 $SHORTDESCRIPTION = 'A JQuery based CHARTs for Foswiki';
 $NO_PREFS_IN_TOPIC = 1;
 

@@ -78,8 +78,10 @@ The plugin is targeting all newer browsers. If you find a problem, please report
 |  Plugin Author(s): | Foswiki:Main.SvenDowideit - http://fosiki.com a %PUBURL%/%WEB%/%TOPIC%/wikiringlogo20x20.png [[http://WikiRing.com][WikiRing]] founding partner  |
 |  Copyright: | &copy; SvenDowideit@fosiki.com |
 |  License: | MIT License |
-|  Plugin Version: | %$VERSION% |
+|  Release: | %$RELEASE% |
+|  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  June 2010: | (1.2) Fixed Foswiki:Tasks/Item8659 and Foswiki:Tasks/Item9120. !FlotChartPlugin now depends on !JQueryPlugin -- Foswiki:Main.AntonioTerceiro |
 |  Nov 2009: | Initial public release  |
 |  Dependencies: | %$DEPENDENCIES% |
 |  Plugin Home: | http://Foswiki.org/Extensions/FlotChartPlugin |

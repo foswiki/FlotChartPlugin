@@ -66,7 +66,7 @@ sub doInit {
 
     # add the initialisation javascript
     my $jscript = Foswiki::Func::readTemplate( lc($pluginName), 'javascript' );
-    Foswiki::Func::addToZone('body', $pluginJavascript, $jscript, 'JQUERYPLUGIN' );
+    Foswiki::Func::addToZone('script', $pluginJavascript, $jscript, 'JQUERYPLUGIN' );
 
 }
 
@@ -189,7 +189,7 @@ EOS
     $result =~ s/%CHARTID%/$ChartId/g;
     $result =~ s/%WIDTH%/$width/g;
     $result =~ s/%HEIGHT%/$height/g;
-    Foswiki::Func::addToZone('body', "!$pluginName - flotChart $ChartId", $result, $pluginJavascript );
+    Foswiki::Func::addToZone('script', "!$pluginName - flotChart $ChartId", $result, $pluginJavascript );
 
     $result = <<'EOS';
 <div class="flotChart" id="flotChartPlaceholder%CHARTID%" style="margin-top:1em;width:%WIDTH%;height:%HEIGHT%;"></div>

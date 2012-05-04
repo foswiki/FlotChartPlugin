@@ -13,7 +13,9 @@ sub check {
 
     if ( $Foswiki::cfg{Plugins}{FlotChartPlugin}{Enabled} ) {
         if ( !$Foswiki::cfg{Plugins}{JQueryPlugin}{Enabled} ) {
-            $warnings .= $this->ERROR('FlotChartPlugin depends on JQueryPlugin, which is not enabled.');
+            $warnings .= $this->ERROR(
+                'FlotChartPlugin depends on JQueryPlugin, which is not enabled.'
+            );
         }
     }
 
